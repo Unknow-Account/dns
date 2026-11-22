@@ -577,9 +577,9 @@ felix: # jacob.navaratne@outlook.com | Jacob Navaratne | @Jacob on Slack!
   type: CNAME
   value: smartsparkcoding.github.io.
 fern: # U0BJ9RRNS3V | or ferntasticvr on github or ferntastical on codeberg
-  ttl: 600
+- ttl: 600
   type: CNAME
-  value: ferntasticvr.github.io.
+  value: fern.hackclub.app.
 fhs: # U07V1ND4H0Q
 - type: A
   value: 216.198.79.1
@@ -895,7 +895,17 @@ lkmw:
 loadout: # jeremyyeboahdarko@gmail.com
 - ttl: 600
   type: A
-  value: 216.198.79.1
+  value: 65.108.74.29
+- ttl: 600
+  type: TXT
+  value: "domain-verification=jeremy-d"   # Nest dashboard domain verification
+review.loadout: # jeremyyeboahdarko@gmail.com | LOADOUT reviewer desk
+- ttl: 600
+  type: A
+  value: 65.108.74.29
+- ttl: 600
+  type: TXT
+  value: "domain-verification=jeremy-d"   # Nest dashboard domain verification
 loners: # support+loners@swehosting.pl
 - ttl: 600
   type: CNAME
@@ -1473,6 +1483,9 @@ timetable: # devansh.awat@gmail.com https://github.com/Devansh-awat
 tn-search: # tyleruploads@yahoo.com
 - type: CNAME
   value: tn-search.pages.dev.
+tnchess: # tyleruploads@yahoo.com
+- type: CNAME
+  value: tnchess.pages.dev.
 toonnongaeoy:
 - ttl: 600
   type: CNAME
