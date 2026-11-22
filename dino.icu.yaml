@@ -69,6 +69,9 @@ _acme-challenge.abc: # U0BMJP5HD7T
 abc: # U0BMJP5HD7T
 - type: CNAME
   value: hc-dns.justawebsite.cc.
+_acme-challenge.abc: # U0BMJP5HD7T
+- type: TXT
+  value: pWEmywRhxp4jcI4aZ_UxIGJAePfqW9Szbf6KorHWFzw
 ai: # Suprised no one took this yet!
 - ttl: 600   # + AI
   type: CNAME   # https://github.com/elijah629/web2050,
@@ -407,6 +410,9 @@ corechat: # aradforsure@gmaul.com U0AJN9LJDGS
   ttl: 600
   type: CNAME
   value: aradjpy.github.io.
+cpoints: # creatorpoints.dev@gmail.com U0BQFSHAV9T
+- type: CNAME
+  value: cname.vercel-dns.com.
 cq: # @ruben (U0AHNB20WDD) on slack, ruben@scstudios.tech https://github.com/code2344/contact-website
   ttl: 600
   type: A
@@ -740,6 +746,9 @@ icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hac
   ttl: 600
   type: A
   value: 76.76.21.21
+_acme-challenge.abc.dino.icu: # U0BMJP5HD7T
+- type: TXT
+  value: VYNutGVxxyp9iRtT2uAGPb52hWTKaP20PPsqLW5xsHM
 idli: # jaykrishnatj@proton.me | Github: https://github.com/idli69
 - type: CNAME
   value: ubu.hackclub.app.

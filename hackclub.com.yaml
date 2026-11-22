@@ -1292,6 +1292,12 @@ cocoa: # davidp@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+orgs.cocoa: # davidp@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 codecafe:
 - type: CNAME
   value: cname.vercel-dns.com.
@@ -3421,6 +3427,12 @@ api.lapse: # ascpixi@hackclub.com U082DPCGPST
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+assay.lapse: # anson@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 staging.lapse: # ascpixi@hackclub.com U082DPCGPST
   octodns:
     cloudflare:
@@ -3808,6 +3820,9 @@ mumble:
 muse:
   type: CNAME
   value: 78958f059c43551f.vercel-dns-016.com.
+mysnowglobe: # lola@hackclub.com - U078JCFHQ3D
+- type: CNAME
+  value: f50cbc0164125a34.vercel-dns-013.com.
 nda: # echo@hackclub.com
 - octodns:
     cloudflare:
